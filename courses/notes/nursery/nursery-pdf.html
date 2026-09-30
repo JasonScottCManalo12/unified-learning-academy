@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Learning Academy</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        main {
+            font-family: "Bookman Old Style";
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding-left: 0pt;
+        }
+
+        p.paragraph {
+            text-indent: 32pt;
+            line-height: 0.2in;
+        }
+
+        div {
+            padding-left: 0pt;
+        }
+
+        ul,
+        ol {
+            padding-left: 8pt;
+        }
+
+        ul.list-style-type-none,
+        ol.list-style-type-none {
+            list-style-type: none;
+        }
+
+        #main-body {
+            counter-reset: section;
+        }
+
+        .content-section {
+            counter-reset: subsection;
+        }
+
+        .content-section::before {
+            counter-increment: section;
+            content: "Section" counter(section) ": ";
+            font-weight: bold;
+        }
+
+        .content-chapter {
+            counter-reset: subsection;
+        }
+
+        .content-chapter::before {
+            counter-increment: section;
+            content: "Chapter " counter(section) ": ";
+            font-weight: bold;
+        }
+
+        .content-sub-topic-lvl-1 {
+            counter-reset: subsection;
+        }
+
+        .content-sub-topic-lvl-1::before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection);
+        }
+
+        .content-sub-topic-lvl-2 {
+            counter-reset: subsection;
+        }
+
+        .content-sub-topic-lvl-2::before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection) "." counter(subsection);
+        }
+
+        .content-sub-topic-lvl-3 {
+            counter-reset: subsection;
+        }
+
+        .content-sub-topic-lvl-3::before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection) "." counter(subsection) "." counter(subsection);
+        }
+
+        .content-sub-topic-lvl-4 {
+            counter-reset: subsection;
+        }
+
+        .content-sub-topic-lvl-4::before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection) "." counter(subsection) "." counter(subsection) "." counter(subsection);
+        }
+
+        .content-sub-topic-lvl-5 {
+            counter-reset: subsection;
+        }
+
+        .content-sub-topic-lvl-5::before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection) "." counter(subsection) "." counter(subsection) "." counter(subsection) "." counter(subsection);
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main-body">
+        <div class="book-title">
+            <h1>Nursery</h1>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">1</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">2</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">3</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">4</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">5</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">6</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">7</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">8</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">9</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">10</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">11</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">12</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">13</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">14</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">15</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">16</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">17</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">18</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">19</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">20</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">21</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">22</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">23</span>
+        </div>
+
+        <div class="content-chapter">
+            <span class="section-title">24</span>
+        </div>
+
+        <div>
+            <h3>Nursery</h3>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; Unified Learning Academy 2025. &reg; All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
